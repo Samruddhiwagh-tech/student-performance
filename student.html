@@ -1,0 +1,73 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Student Dashboard</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h2>Welcome Student</h2>
+    <div class="project-form">
+      <h3>Add Your Projects (max 3)</h3>
+      <input type="text" placeholder="Project Title" id="projectTitle"/>
+      <textarea placeholder="Project Description" id="projectDesc"></textarea>
+      <button onclick="addProject()">Add Project</button>
+    </div>
+
+    <div id="projectList"></div>
+
+    <div class="remarks-section">
+      <h3>Remarks</h3>
+      <div id="remarksDisplay"></div>
+    </div>
+  </div>
+
+  <script src="student.js"></script>
+</body>
+</html> -->
+<!-- SAME HEAD AS BEFORE -->
+
+
+
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Student Dashboard</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  
+<body>
+    <div class="container">
+      <h2>🎓 Welcome Student</h2>
+      <div class="project-form">
+        <h3>➕ 📁Add Your 3 Projects</h3>
+  
+        <input type="text" placeholder="Project 1 Title" id="p1title" />
+        <textarea placeholder="Description 1" id="p1desc"></textarea>
+  
+        <input type="text" placeholder="Project 2 Title" id="p2title" />
+        <textarea placeholder="Description 2" id="p2desc"></textarea>
+  
+        <input type="text" placeholder="Project 3 Title" id="p3title" />
+        <textarea placeholder="Description 3" id="p3desc"></textarea>
+  
+        <button onclick="saveProjects()">✅ Save Projects</button>
+      </div>
+  
+      <div id="projectList"></div>
+  
+      <div class="remarks-section">
+        <h3>📋 Remarks from Guide & Reviewer</h3>
+        <div id="remarksDisplay"></div>
+      </div>
+    </div>
+    <div class="thank-you-btn">
+        <button onclick="goToThankYou()">🎉 Finish & Thank You</button>
+      </div>
+      
+    <script src="student.js"></script>
+    <script src="app.js"></script> <!-- or your shared JS file -->
+  </body>
+  

@@ -1,0 +1,463 @@
+/* body {
+    font-family: Arial, sans-serif;
+    background: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+  }
+  .container {
+    max-width: 600px;
+    margin: auto;
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  h1, h2, h3 {
+    text-align: center;
+  }
+  .login-options {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+  }
+  button {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    background: #007BFF;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  button:hover {
+    background: #0056b3;
+  }
+  input, textarea {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  .login-form, .remarks-section, .project-form {
+    margin-top: 20px;
+  }
+  .student {
+    background: #f9f9f9;
+    padding: 10px;
+    margin: 10px 0;
+    border-left: 5px solid #007BFF;
+  }
+   */
+
+
+   /* Global Styles */
+/* body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #f6f0f0;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+  }
+  
+  .container {
+    max-width: 700px;
+    margin: auto;
+    background: #fffefc;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.05);
+    border: 2px solid #f2e2b1;
+  }
+  
+  h1, h2, h3 {
+    text-align: center;
+    color: #bdb395;
+  }
+  
+  .login-options {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+  }
+  
+  button {
+    padding: 12px 24px;
+    margin: 10px;
+    border: none;
+    background: #f2e2b1;
+    color: #333;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s ease;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background: #d5c7a3;
+    color: white;
+  }
+  
+  input, textarea {
+    width: 100%;
+    margin: 10px 0;
+    padding: 12px;
+    border-radius: 10px;
+    border: 1px solid #d5c7a3;
+    background-color: #f9f7f3;
+    font-size: 15px;
+  }
+  
+  .login-form, .remarks-section, .project-form {
+    margin-top: 20px;
+  }
+  
+  .student {
+    background: #f2e2b1;
+    padding: 15px;
+    margin: 15px 0;
+    border-left: 8px solid #bdb395;
+    border-radius: 10px;
+  }
+  
+  .preset-remarks button {
+    background: #d5c7a3;
+    margin: 6px;
+  }
+  
+  .preset-remarks button:hover {
+    background: #bdb395;
+  }
+  
+  textarea#reviewComment {
+    height: 100px;
+  }
+  
+  #reviewOutput {
+    margin-top: 20px;
+    background: #f6f0f0;
+    padding: 10px;
+    border-radius: 10px;
+  }
+   */
+
+   /* body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #f6f0f0;
+    margin: 0;
+    padding: 20px;
+  }
+  .container {
+    max-width: 700px;
+    margin: auto;
+    background: #f2e2b1;
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 0 12px rgba(0,0,0,0.1);
+  }
+  h1, h2, h3 {
+    text-align: center;
+    color: #4d4d4d;
+  }
+  .login-options {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+  }
+  button {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    background: #bdb395;
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  button:hover {
+    background: #a99f84;
+  }
+  input, textarea {
+    width: 100%;
+    margin: 10px 0;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #d5c7a3;
+    background: #fffaf2;
+  }
+  .login-form, .remarks-section, .project-form {
+    margin-top: 20px;
+  }
+  .student, .project-box {
+    background: #fffaf2;
+    padding: 15px;
+    margin: 15px 0;
+    border-left: 5px solid #bdb395;
+    border-radius: 10px;
+  }
+  .feedback {
+    font-style: italic;
+    color: #333;
+    margin-top: 10px;
+  }
+  .emoji {
+    font-size: 20px;
+  }
+  #loginForm {
+    display: none;
+  }
+  
+   */
+
+   /* Shared Styling for All Dashboards */
+
+
+
+
+
+
+
+
+
+
+/* body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f6f0f0;
+    margin: 0;
+    padding: 20px;
+    color: #3a3a3a;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 40px auto;
+    background: #ffffff;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 8px 16px rgba(189, 179, 149, 0.2);
+  }
+  
+  h1, h2, h3 {
+    text-align: center;
+    color: #bdb395;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    padding: 12px 20px;
+    border: none;
+    background: #f2e2b1;
+    color: #3a3a3a;
+    border-radius: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  button:hover {
+    background: #d5c7a3;
+    color: #000;
+  }
+  
+  input, textarea {
+    width: 100%;
+    margin: 10px 0;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+    background-color: #fefefe;
+  }
+  
+  textarea {
+    resize: vertical;
+    min-height: 100px;
+  }
+  
+  .project-form,
+  .remarks-section,
+  .preset-remarks {
+    margin-top: 30px;
+  }
+  
+  .student {
+    background: #f9f9f9;
+    padding: 16px;
+    margin: 15px 0;
+    border-left: 6px solid #bdb395;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  }
+  
+  .student p {
+    margin: 6px 0;
+  }
+  
+  .remarks-section p,
+  #reviewOutput p,
+  #remarksDisplay p {
+    background: #f2e2b1;
+    padding: 10px;
+    border-radius: 8px;
+    margin: 8px 0;
+    font-size: 0.95rem;
+    color: #333;
+  }
+  
+  #projectList,
+  #remarksDisplay,
+  #reviewOutput {
+    margin-top: 20px;
+  }
+  
+  .preset-remarks {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+  }
+   
+
+ */
+
+
+
+ /* General Page Styling */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f6f0f0;
+    margin: 0;
+    padding: 20px;
+    color: #3a3a3a;
+  }
+  
+  /* Card Container */
+  .container {
+    max-width: 800px;
+    margin: 40px auto;
+    background: #ffffff;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 8px 16px rgba(189, 179, 149, 0.2);
+  }
+  
+  h1, h2, h3 {
+    text-align: center;
+    color: #bdb395;
+    margin-bottom: 20px;
+  }
+  
+  /* Buttons */
+  button {
+    padding: 12px 20px;
+    border: none;
+    background: #f2e2b1;
+    color: #3a3a3a;
+    border-radius: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.3s;
+    margin: 5px;
+  }
+  
+  button:hover {
+    background: #d5c7a3;
+    color: #000;
+  }
+  
+  /* Inputs and Textareas */
+  input, textarea {
+    width: 100%;
+    margin: 10px 0;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+    background-color: #fefefe;
+  }
+  
+  textarea {
+    resize: vertical;
+    min-height: 100px;
+  }
+  
+  /* Project Card & Remarks */
+  .project-form,
+  .remarks-section,
+  .preset-remarks {
+    margin-top: 30px;
+  }
+  
+  .student {
+    background: #fffaf5;
+    padding: 16px;
+    margin: 15px 0;
+    border-left: 6px solid #bdb395;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  }
+  
+  .student p {
+    margin: 6px 0;
+  }
+  
+  /* Remarks Display */
+  .remarks-section p,
+  #reviewOutput p,
+  #remarksDisplay p,
+  #feedback-student1,
+  .feedback-text {
+    background: #f2e2b1;
+    padding: 10px;
+    border-radius: 8px;
+    margin: 8px 0;
+    font-size: 0.95rem;
+    color: #333;
+  }
+  
+  /* Project & Feedback Lists */
+  #projectList,
+  #remarksDisplay,
+  #reviewOutput,
+  #studentGroups {
+    margin-top: 20px;
+  }
+  
+  /* Preset Remark Buttons */
+  .preset-remarks {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+  }
+
+  /* Thank You Page Specific */
+.message {
+    font-size: 1.2rem;
+    margin: 20px 0;
+    text-align: center;
+  }
+  
+  /* Dark Mode Styling */
+  body.dark {
+    background-color: #1e1e1e;
+    color: #f0f0f0;
+  }
+  body.dark .container {
+    background-color: #2e2e2e;
+    box-shadow: 0 0 10px rgba(255,255,255,0.1);
+  }
+  body.dark input,
+  body.dark textarea {
+    background-color: #444;
+    color: #f0f0f0;
+  }
+  body.dark button {
+    background-color: #4e4e4e;
+    color: #fff;
+  }
+  
+  

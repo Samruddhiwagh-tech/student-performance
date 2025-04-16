@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Login | Student Performance System</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🔐 Login as</h1>
+    <div class="login-options">
+      <button onclick="showLogin('student')">👨‍🎓 Student</button>
+      <button onclick="showLogin('guide')">👨‍🏫 Guide</button>
+      <button onclick="showLogin('reviewer')">🧑‍💼 Reviewer</button>
+    </div>
+
+    <div class="login-form" id="loginForm">
+      <h2 id="loginTitle">Login</h2>
+      <input type="text" placeholder="Login ID" id="loginId"/>
+      <input type="password" placeholder="Password" id="password"/>
+      <button onclick="login()">Login</button>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+  
+</body>
+</html>
+
+
